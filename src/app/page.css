@@ -1,0 +1,306 @@
+.heroSectionCont {
+  background-image: url("/assets/images/hero-bg-mobile.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.tagline {
+  font-size: 2rem;
+  color: white;
+  padding: 0 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+}
+
+.text-gradient {
+  color: #0c82bb;
+  background-image: linear-gradient(45deg, #0c82bb, #804386 50%, #fa91eb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSectionCont > p {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.heroSectionCont > button {
+  all: unset;
+  margin-top: 2em;
+  background-color: white;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.heroSectionCont > button:hover {
+  /* background-color: #dedbe5; */
+  background-color: black;
+  border: solid 1px white;
+  color: white;
+}
+
+.callToActionButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-bottom: solid 1px #333;
+  padding-bottom: 1em;
+}
+
+.callToActionButtons > span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600px;
+  font-size: large;
+}
+
+.overviewCont {
+  display: flex;
+  margin-top: 5em;
+  width: 70%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em auto 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.overviewCont > h3 {
+  font-weight: 300;
+  font-size: 52px;
+}
+
+.overviewCont > p {
+  margin-top: 1em;
+  line-height: 2;
+}
+
+.projSectionsCont {
+  margin: 10em 5em 0em 5em;
+  display: flex;
+  width: 100%;
+}
+
+.projectSectImg {
+  width: 400px;
+  height: auto;
+}
+
+.contentSec {
+  display: flex;
+  width: 50%;
+  margin-right: 10em;
+  flex-direction: column;
+}
+.imgSec {
+  width: 50%;
+}
+.naturalOrderEngine {
+  padding-bottom: 1em;
+}
+.naturalOrderEngine > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin: 1em 5em 1em 0em;
+  background-color: #345071;
+}
+
+.naturalOrderEngine > p {
+  line-height: 2;
+}
+.naturalOrderEngine:hover {
+  padding-bottom: 1em;
+  border-bottom: solid 1px #555;
+}
+
+.useCaseCont > h3 {
+  margin-top: 3em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 52px;
+}
+
+.useCasesCont {
+  display: flex;
+  margin-top: 15em;
+  justify-content: space-between;
+  margin: 3em 5em 0em 5em;
+}
+
+.useCaseSec {
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px;
+  border: solid 1px #333;
+}
+
+.useCaseSec > h3 {
+  margin-bottom: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.useCaseSecImg {
+  width: 200px;
+  height: auto;
+}
+
+.componentsCont {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  justify-content: space-between;
+  margin: 7em 5em 0em 5em;
+}
+
+.architectureSec {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.architectureSec > span {
+  line-height: 3;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+}
+.architectureSec > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+.componentsSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.componentsSec > span {
+  line-height: 3;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+}
+
+.componentsSec > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.vertcialLine {
+  border-right: solid 1px #555;
+}
+.bottomHeroCont {
+  margin-top: 5em;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 5em 5em 0em 5em;
+  justify-content: space-between;
+  gap: 5px;
+}
+.george {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.george > img {
+  width: 300px;
+  height: auto;
+}
+
+.george > h3 {
+  margin-top: 2em;
+  font-size: 24px;
+  font-weight: 300;
+}
+.george > h4 {
+  margin-top: 1em;
+}
+.george > p {
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2;
+}
+.gidraph > img {
+  width: 300px;
+  height: auto;
+}
+.gidraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.gidraph > h3 {
+  margin-top: 2em;
+  font-size: 24px;
+  font-weight: 300;
+}
+.gidraph > h4 {
+  margin-top: 1em;
+}
+.gidraph > p {
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2;
+}
+.jonnah > img {
+  width: 300px;
+  height: auto;
+}
+.jonnah {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.jonnah > h3 {
+  margin-top: 2em;
+  font-size: 24px;
+  font-weight: 300;
+}
+.jonnah > h4 {
+  margin-top: 1em;
+}
+.jonnah > p {
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2;
+}
+
+
+.teamTitle > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 52px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2em;
+}

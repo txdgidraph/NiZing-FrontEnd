@@ -1,0 +1,31 @@
+.footerCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5em 5em 1em 5em;
+    border-top: solid 1px #555;
+    padding-top: 1em;
+}
+.menuOne > img{
+    width: 200px;
+    height: auto;
+}
+
+.menuTwo{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.menuThree{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.menuFour{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}

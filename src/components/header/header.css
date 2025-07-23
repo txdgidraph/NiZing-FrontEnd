@@ -1,0 +1,40 @@
+.mainWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-items: center;
+  border-bottom: solid 1px #333;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 3em;
+}
+.menuItems:hover{
+    cursor: pointer;
+}
+
+.registrationCont > button {
+  all: unset;
+  background-color: white;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.registrationCont > button:hover{
+    background-color: #dedbe5;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
