@@ -334,6 +334,7 @@
 
   .projSectionsCont {
     margin: 3em 1em 1em 1em;
+    flex-wrap: wrap;
     width: 100%;
   }
 
