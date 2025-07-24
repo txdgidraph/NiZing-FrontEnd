@@ -75,7 +75,7 @@ function Home() {
       {/* USE CASES & APPLICATIONS */}
 
       {/* OVERVIEW SECTION */}
-      <div className="useCaseCont">
+      <div className="useCaseContTitle">
         <h3>Use Cases & Applications</h3>
       </div>
       <div className="useCasesCont">

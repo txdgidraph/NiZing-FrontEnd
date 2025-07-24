@@ -92,6 +92,7 @@
 .projSectionsCont {
   margin: 10em 5em 0em 5em;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -128,7 +129,7 @@
   border-bottom: solid 1px #555;
 }
 
-.useCaseCont > h3 {
+.useCaseContTitle > h3 {
   margin-top: 3em;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -296,11 +297,151 @@
   line-height: 2;
 }
 
-
 .teamTitle > h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 52px;
   font-weight: 300;
   text-align: center;
   margin-top: 2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .heroSectionCont {
+    background-image: url("/assets/images/hero-bg-mobile.png");
+    height: 50vh;
+  }
+  .heroSectionCont > p {
+    font-size: 16px;
+  }
+  .tagline {
+    font-size: 2rem;
+    color: white;
+    padding: 0 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+  }
+
+  .overviewCont {
+    width: 90%;
+    margin: 4em auto 0 auto;
+  }
+
+  .overviewCont > h3 {
+    font-size: 42px;
+  }
+
+  .projSectionsCont {
+    margin: 3em 1em 1em 1em;
+    width: 100%;
+  }
+
+  .contentSec {
+    display: flex;
+    width: 100%;
+    margin: 1em 1em 1em 1em;
+  }
+  .imgSec {
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  .projectSectImg {
+    width: 200px;
+    height: auto;
+  }
+  .naturalOrderEngine {
+    padding-bottom: 1em;
+    width: 100%;
+  }
+  .naturalOrderEngine > h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 1em 1em 1em 0em;
+  }
+
+  .useCaseContTitle > h3 {
+    margin: 3em 0.5em 0em 0.5em;
+    font-size: 32px;
+  }
+
+  .useCasesCont {
+    flex-direction: column;
+    margin: 3em 1em 0em 1em;
+  }
+
+  .useCaseSec {
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+
+  .useCaseSec > h3 {
+    margin-bottom: 2em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .useCaseSecImg {
+    width: 200px;
+  }
+
+.componentsCont {
+  flex-direction: column;
+  gap: 0em;
+  justify-content: space-between;
+  margin: 3em 1em 0em 1em;
+}
+
+.architectureSec {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.architectureSec > span {
+  line-height: 2;
+}
+.componentsSec {
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.componentsSec > span {
+  line-height: 2;
+  margin-top: 1em;
+}
+.vertcialLine{
+    display: none;
+}
+
+.teamTitle > h3 {
+  font-size: 32px;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 3em 1em 0em 1em;
+  justify-content: space-between;
+  gap: 2.5em;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
