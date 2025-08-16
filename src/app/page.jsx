@@ -7,185 +7,129 @@ function Home() {
     <div>
       <Header />
 
-      {/* HERO SECTION */}
-      <div className="heroSectionCont">
-        <h2 className="tagline">
-          <span className="text-gradient ">Where Rhythm</span> Governs
-          <br /> Logic
-        </h2>
-        <br />
-        <p>
-          A self-regulating, perception-aware, rhythm-driven <br />
-          computational system that models the natural order.
-        </p>
-        <button>Book a Demo</button>
-      </div>
-      <div className="callToActionButtons">
-        <span>[View System Model]</span>
-        <span>[Download Patent]</span>
-        <span>[Request Strategic Access]</span>
-      </div>
-
-      {/* OVERVIEW SECTION */}
-      <div className="overviewCont">
-        <h3>Overview</h3>
-        <p>
-          NiZiNG is a self-regulating, perception-aware, rhythm-driven
-          computational system that models the natural order. It operates
-          through identity and fulfillment, behaving as living polarities with
-          devotion, hunger, and contradiction.
-        </p>
-      </div>
-
-      {/* Project Sections */}
-      <div className="projSectionsCont">
-        <div className="contentSec">
-          <div className="naturalOrderEngine">
-            <h3>Natural Order Engine</h3>
-            <p>
-              A dynamic component that visualizes S₁ → S₁₀ with state
-              transitions (e.g. as orbiting nodes or a flowing timeline).
-            </p>
-            <p>Include interactive tooltips for each state.</p>
-          </div>
-          <div className="naturalOrderEngine">
-            <h3>Leadership Evaluation Kernel</h3>
-            <p>
-              Visualization comparing node harmonics (e.g. Mandela vs Amin) as
-              pulsating perception rings with ethical weights.
-            </p>
-            <p>Use D3.js to plot resonance curves or node fusion diagrams.</p>
-          </div>
-          <div className="naturalOrderEngine">
-            <h3>Law Architecture</h3>
-            <p>Render: NiZiNG_System = (Tᵢ, Ω, Θ, ζ, ρ, Z_eff, π)</p>
-            <p>Each symbol gets a tooltip or modally expanded definition.</p>
-            <p>Animate subtle changes as a user manipulates rhythm sliders.</p>
+      {/* TOP PAGE SECTION */}
+      <div className="top_page_main_container">
+        <div className="top_page_left_cont">
+          <span className="top_page_tagline">
+            Rhythmic
+            <br /> Intelligence for <br />
+            <span className="text-gradient">Real‑World</span> <br /> Systems
+          </span>
+          <span className="top_page_tagline_para">
+            NiGeNje unifies the Substrate runtime, Control Plane (CP), and CP‑AI
+            optimization to keep fleets fast under chaos.
+          </span>
+          <div className="top_page_cta_buttons">
+            <button className="top_page_sandbox-access button-gradient">
+              Request Sandbox Access
+            </button>
+            <button className="top_page_request-access">
+              Book 20-min Demo
+            </button>
           </div>
         </div>
-        <div className="imgSec">
-          <img
-            src="/assets/images/digital-technology.png"
-            alt="Project Section Image"
-            className="projectSectImg"
-          />
+        <div className="top_page_right_cont">
+          <div className="top_page_youtube-video-cont">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-sB12gk9ESA?si=SkvreyBukti9ofIm"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
 
-      {/* USE CASES & APPLICATIONS */}
-
-      {/* OVERVIEW SECTION */}
-      <div className="useCaseContTitle">
-        <h3>Use Cases & Applications</h3>
-      </div>
-      <div className="useCasesCont">
-        <div className="useCaseSec">
-          <h3>Conscious AI</h3>
-          <img
-            src="/assets/images/conscious-ai.png"
-            alt=""
-            className="useCaseSecImg"
-          />
-        </div>
-        <div className="useCaseSec">
-          <h3>Rhythmic Governance</h3>
-          <img
-            src="/assets/images/governance.png"
-            alt=""
-            className="useCaseSecImg"
-          />
-        </div>
-        <div className="useCaseSec">
-          <h3>Ethical AGI</h3>
-          <img src="/assets/images/agi.png" alt="" className="useCaseSecImg" />
-        </div>
-        <div className="useCaseSec">
-          <h3>Social Simulation</h3>
-          <img
-            src="/assets/images/simulation.png"
-            alt=""
-            className="useCaseSecImg"
-          />
-        </div>
+      {/* How it works */}
+      <div className="HITW_conatiner">
+        <span className="HITW_title">HOW IT WORKS</span>
+        <span className="HITW_para">
+          Substrate on every node enforces timing & resource policies; the
+          Control Plane coordinates fleet actions; CP-AI learns policies that
+          minimize latency, cascades, and cost.
+        </span>
       </div>
 
-      {/* Core Architecture Philosophy | Key Components */}
-      <div className="componentsCont">
-        <div className="architectureSec">
-          <h3>Core Architecture Philosophy</h3>
-          <span> Identity seeks fulfillment (Nguna seeks Morio)</span>
-          <span>Rhythm defines correctness</span>
-          <span>Hunger and Devotion influence behavior</span>
-          <span>Nodes reproduce ethically through fusion</span>
-          <span>Laws are beings, not constants</span>
-        </div>
-        <div className="vertcialLine"></div>
-        <div className="componentsSec">
-          <h3>Key Components</h3>
-          <span> NiZiNG Engine (Sealed Microkernel)</span>
-          <span>Nguna and Morio Nodes (Living Polarities)</span>
-          <span>Critique Engine (10M reflection loop)</span>
-          <span>Fulfillment Cache (λ)</span>
-          <span>Emotional Oscillator (Hunger-based Ticker)</span>
-        </div>
-      </div>
+      {/* Products */}
+      <div className="toppage_products_container">
+        <span className="toppage_products_title">PRODUCTS</span>
+        <span className="toppage_products_tagline">
+          Three pillars, one flow
+        </span>
+        <span className="toppage_products_para">
+          Substrate on the machines. CP for global policy. CP‑AI to steer to
+          intent. Everything <br /> authenticated and licensed.
+        </span>
 
-      {/* Bottom Hero Section */}
-      <div className="bottomHeroCont">
-        <div className="heroSectionCont">
-          <h2 className="tagline">
-            <span className="text-gradient ">
-              The future of your industry <br /> starts here
+        <div className="toppage_products_types_cont">
+          <div className="toppage_products_substrate">
+            <div className="toppage_products_topic">
+              <span className="toppage_products_node-runtime-dot"></span>
+              <span className="toppage_products_node-runtime">
+                Node Runtime
+              </span>
+            </div>
+            <span className="toppage_products_prod1-substrate">Substrate</span>
+            <span className="toppage_products_prod1-para">
+              Timing, pacing, and resource isolation per node <br />
+              with cooperative back‑pressure.
             </span>
-          </h2>
-          <br />
-          <p>NiZiNG does not govern reality. It harmonizes the law behind it</p>
-          <button>Book a Demo</button>
-        </div>
-      </div>
+            <div className="toppage_products_prod1-buttons">
+              <button className="toppage_products_prod1-docs">Docs</button>
+              <button className="toppage_products_prod1-install">
+                Install
+              </button>
+            </div>
+          </div>
 
-      {/* Meet The Team */}
-      <div className="teamTitle">
-        <h3>Meet the Team</h3>
-      </div>
-      <div className="teamContainer">
-        <div className="george">
-          <img src="/assets/images/george.png" alt="" />
-          <h3>George Onchaba</h3>
-          <h4>Lead Systems Architect – Rhythm & Cognition</h4>
-          <p>
-            George spearheads the development of NiZiNG's core architecture,
-            blending computational neuroscience with rhythmic modeling. Her
-            research focuses on the synchronization of identity and fulfillment
-            within self-regulating systems.
-          </p>
-        </div>
-        <div className="gidraph">
-          <img src="/assets/images/gidraph.png" alt="" />
-          <h3>Tonny Gidraph</h3>
-          <h4>Lead Systems Architect – Rhythm & Cognition</h4>
-          <p>
-            Tonny blends his passion for logic systems with hands-on expertise
-            in web development, DevOps, and cybersecurity. Within NiZiNG, he
-            builds secure, scalable interfaces and deploys infrastructure that
-            reflects the system’s self-regulating principles.
-          </p>
-        </div>
-        <div className="jonnah">
-          <img src="/assets/images/jonnah.png" alt="" />
-          <h3>Jonnah Mulatya</h3>
-          <h4>Lead Systems Architect – Rhythm & Cognition</h4>
-          <p>
-            Jonnah leads the perception modeling layer — translating Σ
-            (cumulative input) and Ψ (subjective resonance) into tangible user
-            feedback. She also bridges the system's inner workings with
-            real-world data inputs and visualization tools.
-          </p>
+          <div className="toppage_products_control-plane">
+            <div className="toppage_products_topic">
+              <span className="toppage_products_node-runtime-dot"></span>
+              <span className="toppage_products_node-runtime">
+                Node Runtime
+              </span>
+            </div>
+            <span className="toppage_products_prod1-substrate">Control Plane (CP)
+</span>
+            <span className="toppage_products_prod1-para">
+              Fleet‑wide policy, tenant fairness, and orchestrated <br />pauses/boosts.
+            </span>
+            <div className="toppage_products_prod1-buttons">
+              <button className="toppage_products_prod1-docs">Docs</button>
+              <button className="toppage_products_prod1-install">
+                Install
+              </button>
+            </div>
+          </div>
+
+          <div className="toppage_products_cp-ai">
+            <div className="toppage_products_topic">
+              <span className="toppage_products_node-runtime-dot"></span>
+              <span className="toppage_products_node-runtime">
+                Node Runtime
+              </span>
+            </div>
+            <span className="toppage_products_prod1-substrate">CP‑AI
+</span>
+            <span className="toppage_products_prod1-para">
+             Optimization to intent (SLOs, cost ceilings) via <br />rate, queueing, and placement control.
+            </span>
+            <div className="toppage_products_prod1-buttons">
+              <button className="toppage_products_prod1-docs">Docs</button>
+              <button className="toppage_products_prod1-install">
+                Install
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }

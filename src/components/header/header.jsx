@@ -7,11 +7,11 @@ function Header() {
         <img src="/assets/images/nigenje_logo.png" alt="Nigenje Logo" className="logo"/>
       </div>
       <div className="menuItems">
-        <span>Natural Order Engine</span>
-        <span>Menu Items</span>
-        <span>Menu Items</span>
-        <span>Menu Items</span>
-        <span>Menu Items</span>
+        <span>Products</span>
+        <span>Why Nigenje</span>
+        <span>Brand</span>
+        <span>Team</span>
+        <span>Access</span>
       </div>
       <div className="registrationCont">
         <button>Book a Demo</button>

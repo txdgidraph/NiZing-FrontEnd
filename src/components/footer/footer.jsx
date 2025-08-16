@@ -9,7 +9,7 @@ function Footer() {
           className="footerLogo"
         />
       </div>
-      <div className="menuTwo">
+      {/* <div className="menuTwo">
         <span>Main Menu 1</span>
         <span>Main Menu 2</span>
         <span>Main Menu 3</span>
@@ -26,7 +26,7 @@ function Footer() {
         <span>Main Menu 2</span>
         <span>Main Menu 3</span>
         <span>Main Menu 4</span>
-      </div>
+      </div> */}
     </div>
   );
 }
