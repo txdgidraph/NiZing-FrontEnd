@@ -157,7 +157,7 @@
 
 .top_page_worl-email-4-updates {
   margin: 2em 4em 0em 4em;
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 2em;
@@ -165,7 +165,7 @@
   input {
     all: unset;
     width: 70%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #333;
     border-radius: 5px;
     background-color: #0e1424;
@@ -176,15 +176,19 @@
     border: 1px solid #333;
     background-color: #2be09d;
     color: black;
-    padding: 2px 8px 2px 8px;
-    font-size: 14px;
+    padding: 5px 8px 2px 8px;
+    font-size: 16px;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
   }
 }
-
+@media (max-width: 480px) {
+.top_page_worl-email-4-updates{
+  margin: 2em 1em 0em 1em;
+}
+}
 /* Why Us Section 
 Why Us Section 
 Why Us Section  */
@@ -280,7 +284,7 @@ Pillar section */
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     padding: 10px;
-    background: #fff;
+    background: #555;
   }
 
   .responsive-table td {
@@ -297,6 +301,12 @@ Pillar section */
     margin-bottom: 4px;
     color: #333;
   }
+}
+
+@media (max-width: 480px) {
+.pillar_section_cont{
+  margin: 2em 1em 0em 1em;
+}
 }
 
 /* How it works */
@@ -459,6 +469,7 @@ Architecture — invariants at execution */
   align-items: center;
   gap: 20px;
   margin: 5em 4em 0em 4em;
+  flex-wrap: nowrap;
 }
 
 /* Card styles */
@@ -503,4 +514,47 @@ Architecture — invariants at execution */
   flex-direction: column;
   gap: 15px;
   align-items: center;
+}
+
+/* 📱 Tablet view (≤768px) */
+@media (max-width: 768px) {
+  .flow-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrow {
+    transform: rotate(90deg); /* → becomes ↓ */
+    margin: 10px 0;
+  }
+
+  .fork {
+    margin-top: 20px; /* spacing after fork */
+  }
+}
+
+/* 📱 Mobile view (≤480px) */
+@media (max-width: 480px) {
+  .flow-container {
+    margin: 2em 1em;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;     /* Full width cards */
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .arrow {
+    font-size: 16px;
+    margin: 5px 0;
+  }
 }
